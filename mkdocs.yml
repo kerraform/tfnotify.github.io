@@ -1,5 +1,6 @@
 site_name: tfnotify Documents
 repo_url: https://github.com/kerraform/tfnotify
+repo_name: kerraform/tfnotify
 theme:
   name: material
   logo: https://avatars.githubusercontent.com/u/82173916?s=200&v=4
