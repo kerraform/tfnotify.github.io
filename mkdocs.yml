@@ -1,3 +1,30 @@
-site_name: My Docs
+site_name: tfnotify Documents
+repo_url: https://github.com/kerraform/tfnotify
 theme:
   name: material
+  logo: https://avatars.githubusercontent.com/u/82173916?s=200&v=4
+  favicon: https://avatars.githubusercontent.com/u/82173916?s=200&v=4
+  features:
+  palette:
+    primary: deep purple
+  icon:
+    repo: fontawesome/brands/github
+
+copyright: Copyright &copy; 2021 kerraform members
+
+plugins:
+  - git-revision-date
+
+markdown_extensions:
+  - codehilite
+
+pages:
+  - index.md
+  - Installation:
+    - ./installation/cli.md
+    - ./installation/github-actions.md
+  - Configurations:
+    - How to configure tfnotify: ./configurations/index.md
+    - GitHub Actions: ./configurations/github-actions.md
+  - Features:
+    - ./features/hooks.md

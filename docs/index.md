@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## What is tfnotify?
 
-## Commands
+tfnotify is a command line tool to parse the [Terraform](https://www.terraform.io/) outputs and send notifications to the specified target (e.g. Pull Requset, Slack).
+It will enhance your CI with Terraform and fasten PR reviews which will encourage more Infrastracture as Code (IaC) in your organization.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This was originally forked from [mercari/tfnotify](https://github.com/mercari/tfnotify) and developing new features and maintainer the product. If you are interested or have any feature requests, please open a GitHub discussion.
